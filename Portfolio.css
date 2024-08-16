@@ -1,7 +1,7 @@
 * {
   border: border-box;
   margin: 0;
-  overflow: hidden;
+  /* overflow: hidden; */
   text-align: center;
   font-family: "Inter", sans-serif;
 }
@@ -14,9 +14,10 @@
   justify-content: space-between;
   background-color: black;
 }
+
 .nav-left {
   margin-left: 5rem;
-  /* font-family: "DM Sans", sans-serif; */
+  font-family: "DM Sans", sans-serif;
   color: #faaf14;
   font-size: 1.9rem;
   font-style: italic;
@@ -52,6 +53,7 @@
   background-color: #324b32;
   height: 320px;
   font-family: "DM Sans", sans-serif;
+  overflow: hidden;
 }
 #heading1 {
   color: #ff5f32;
@@ -83,7 +85,6 @@ h1 {
   font-size: 120px;
   margin-top: 12px;
   padding: 32px;
-  transition: 0.3 ease-in;
 }
 .icon:hover {
   transform: scale(1.4);
@@ -92,16 +93,16 @@ h1 {
   background-color: #faaf14;
   height: 240px;
 }
+.project-list {
+  font-size: 2rem;
+  margin-top: 64px;
+}
 .projects a {
   text-decoration: none;
   color: black;
   padding: 32px;
+}
 
-  font-size: 2rem;
-}
-.projects a:hover {
-  transform: scale(2);
-}
 .contact {
   background-color: #f5f0e1;
   height: 200px;
@@ -116,4 +117,5 @@ h1 {
   justify-content: flex-start;
   font-size: 25px;
   margin-top: 32px;
+  list-style: none;
 }
